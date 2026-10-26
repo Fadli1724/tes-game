@@ -266,6 +266,7 @@ try{best=+localStorage.getItem('brBest3dfinal')||0}catch(e){}
 
 const zone={x:0,z:0,r:1000,stage:1,cooldown:120,targetR:1000};
 const zoneDamages=[0,2,4,6,8,10];
+const plane={p:new V3(),d:new V3(),t:0,len:1};
 
 const P={
   pos:new V3(),vy:0,hp:200,rel:0,cd:0,crouch:false,dive:false,hit:0,cur:null,
